@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light gray background */
+    font-family: sans-serif; /* Use a sans-serif font */
+    color: #333; /* Dark gray text color */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #222; /* Darker gray for headings */
+}
+
+/* Style your container (if you have one) */
+#container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff; /* White container background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+h1 {
+    font-size: 40px; /* Adjust the font size as needed */
+    font-weight: bold; /* Make the text bold */
+    text-align: center; /* Center the heading */
+    color: #333; /* Set the text color */
+}
+
+
