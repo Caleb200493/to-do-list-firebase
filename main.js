@@ -16,7 +16,7 @@ const app = initializeApp(appSettings);
 const database = getDatabase(app);
 const listInDB = ref(database, "to-do-list");
 onValue(listInDB, (snapshot) => {
-  const todoListArray = Object.values(snapshot.val());
+  const todoListArray = Object.values(snapshot.val() || {});
   console.log(todoListArray);
   for (let i = 0; i < todoListArray.length; i++) {
     let table = document
